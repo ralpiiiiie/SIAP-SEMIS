@@ -1,0 +1,77 @@
+/* Section Label */
+.section-label {
+  color: #ff5a5a;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.section-label i {
+  color: #333;
+  font-size: 18px;
+}
+
+/* Title */
+.solution-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #222;
+  line-height: 1.5;
+}
+
+/* Paragraphs */
+.solution-text {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+/* Button */
+.flowchart-btn {
+  background-color: #22c55e;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-size: 15px;
+  box-shadow: 0 5px 10px rgba(34, 197, 94, 0.3);
+  transition: all 0.2s ease;
+}
+
+.flowchart-btn:hover {
+  background-color: #1ea54f;
+  transform: translateY(-2px);
+}
+
+/* Image Placeholder */
+.features-placeholder img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .features-placeholder img {
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+
+  .proposed-solution .row {
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+  .proposed-solution .col-lg-6 {
+    width: 100%;
+  }
+}

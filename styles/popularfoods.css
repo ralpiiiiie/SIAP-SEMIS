@@ -1,0 +1,104 @@
+/* Popular Foods Section */
+.popular-foods {
+  background-color: #fff;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Section Titles */
+.section-subtitle {
+  color: #f15b5b;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+}
+
+/* Food Cards */
+.food-card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: left;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.food-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.food-card.active {
+  
+  box-shadow: 0 6px 20px rgba(50, 224, 94, 0.2);
+}
+
+/* Food Images */
+.food-img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+/* Food Name */
+.food-name {
+  color: #28d64a;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+/* Food Description */
+.food-desc {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+/* Buttons */
+.btn-order {
+  display: inline-block;
+  border: 1px solid #bbb;
+  color: #000;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.btn-order:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-order.green {
+  background-color: #32e05e;
+  color: white;
+  border: none;
+}
+
+.btn-order.green:hover {
+  background-color: #28c94f;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .food-img {
+    height: 180px;
+  }
+}

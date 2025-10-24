@@ -1,0 +1,73 @@
+/* General Navbar Styling */
+.navbar {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* keeps it above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* optional subtle shadow */
+}
+
+.logo {
+  width: 180px;
+  height: 80px;
+}
+
+.brand-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.brand-subtitle {
+  font-size: 0.75rem;
+  letter-spacing: 5px;
+  color: #000;
+  font-weight: 500;
+}
+
+/* Nav Links */
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000 !important;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #28d64a !important;
+}
+
+/* Contact Button */
+.btn-contact {
+  background-color: #32e05e;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn-contact:hover {
+  background-color: #28c94f;
+  color: white;
+}
+
+.btn-contact i {
+  margin-right: 6px;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+  }
+
+  .btn-contact {
+    margin-top: 10px;
+  }
+}

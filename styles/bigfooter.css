@@ -1,0 +1,43 @@
+.green-footer {
+  background-color: #38E050; /* bright green background */
+}
+
+.green-footer h6 {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.green-footer p,
+.green-footer a,
+.green-footer li {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #000;
+}
+
+.green-footer .footer-logo {
+  width: 200px;  /* exact approximate width from your image */
+  height: 80px;  /* height to match proportion */
+  object-fit: contain;
+}
+
+.green-footer .bi {
+  transition: transform 0.3s ease;
+}
+
+.green-footer .bi:hover {
+  transform: scale(1.1);
+}
+
+.green-footer .border-top {
+  border-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+@media (max-width: 768px) {
+  .green-footer {
+    text-align: center;
+  }
+  .green-footer .d-flex {
+    justify-content: center;
+  }
+}

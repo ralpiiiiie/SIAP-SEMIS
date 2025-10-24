@@ -1,0 +1,26 @@
+
+@import "navbar.css";
+@import "hero.css";
+@import "popularfoods.css";
+@import "business.css";
+@import "about.css";
+@import "products.css";
+@import "ordernow.css";
+@import "contacts.css";
+@import "proposed.css";
+@import "benefits.css";
+@import "stats.css";
+@import "welcome.css";
+@import "customers.css";
+@import "blog.css";
+
+@import "bigfooter.css";
+@import "smallfooter.css";
+/* Global Font */
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
